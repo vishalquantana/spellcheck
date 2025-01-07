@@ -1,0 +1,15 @@
+{
+    "manifest_version": 3,
+    "name": "Spell Checker",
+    "version": "1.0",
+    "description": "Identifies spelling mistakes on the page and provides a clickable list to navigate to them.",
+    "permissions": ["activeTab", "scripting"],
+    "host_permissions": ["<all_urls>"],
+    "content_scripts": [
+      {
+        "matches": ["<all_urls>"],
+        "js": ["content.js"],
+        "css": ["style.css"]
+      }
+    ]
+  }

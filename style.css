@@ -1,0 +1,18 @@
+div {
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  li {
+    padding: 5px;
+    border-bottom: 1px solid #ccc;
+  }
+  li:hover {
+    background-color: #ffc107;
+  }
